@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):D=''.join(r+'ATCG'['TAGC'.find(r)]for r in I());S=sorted((*(p:=I().split()),sum(a==b for a,b in zip(D,p[0])))[::-1]for _ in'*'*int(I()));print(' '.join(n for v,n,_ in S if v==S[-1][0]))
